@@ -28,7 +28,7 @@ export default function App() {
       <Text>Digite um número</Text>
       <TextInput
         style={styles.textInput}
-        placeholder="Número"
+        placeholder="Número "
         keyboardType="number-pad"
         onChangeText={(texto) => setX(parseInt(texto))}
         value={x}
